@@ -8,7 +8,7 @@ namespace BATDemoFramework
         private static string baseUrl = "http://localhost:12142/";
 
         //Here needs to add as parameter the path of driver
-        public static IWebDriver webDriver =new ChromeDriver("C:\chromedriver_win32\chromedriver.exe");
+        public static IWebDriver webDriver =new ChromeDriver("C:\\chromedriver_win32\\chromedriver.exe");
 
         public static void Initialize()
         {
