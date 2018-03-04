@@ -19,7 +19,7 @@ namespace BATDemoTests
         {
             Pages.Home.Goto();
             Pages.TopNavigation.About();
-            Assert.IsTrue(Pages.Home.IsAt());
+            Assert.IsTrue(Pages.About.IsAt());
         }
 
         [Test]
